@@ -1,0 +1,92 @@
+LOCUS       XM_020956829            1207 bp    mRNA    linear   INV 05-AUG-2026
+DEFINITION  PREDICTED: Drosophila serrata corona (cona), mRNA.
+ACCESSION   XM_020956829
+VERSION     XM_020956829.2
+DBLINK      BioProject: PRJNA1506768
+KEYWORDS    RefSeq.
+SOURCE      Drosophila serrata
+  ORGANISM  Drosophila serrata
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Altocrustacea;
+            Allotriocarida; Hexapoda; Insecta; Pterygota; Neoptera; Eumetabola;
+            Endopterygota; Aparaglossata; Panorpida; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_028257147) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Aug 5, 2026 this sequence version replaced XM_020956829.1.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI RefSeq
+            Annotation Status           :: Full annotation
+            Annotation Name             :: GCF_035046125.1-RS_2026_08
+            Annotation Pipeline         :: NCBI Eukaryotic Genome Annotation
+                                           Pipeline (EGAP)
+            Annotation Software Version :: 10.6
+            Annotation Method           :: Gnomon; cmsearch; tRNAscan-SE
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            Annotation Date             :: 08/04/2026
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1207
+                     /organism="Drosophila serrata"
+                     /mol_type="mRNA"
+                     /isolate="PLE 108"
+                     /isolation_source="laboratory line"
+                     /db_xref="taxon:7274"
+                     /chromosome="Unknown"
+                     /sex="female"
+                     /tissue_type="whole fly"
+                     /dev_stage="Adult fly"
+                     /geo_loc_name="Australia: Paluma, Queensland"
+                     /collection_date="2017"
+     gene            1..1207
+                     /gene="cona"
+                     /note="corona; Derived by automated computational analysis
+                     using gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 8 long SRA reads, 4 Proteins, and
+                     93% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 2 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:110187441"
+                     /db_xref="NCBIOrtholog:42213"
+     CDS             98..748
+                     /gene="cona"
+                     /codon_start=1
+                     /product="corona"
+                     /protein_id="XP_020812488.2"
+                     /db_xref="GeneID:110187441"
+                     /db_xref="NCBIOrtholog:42213"
+                     /translation="MSNKGDNLVIVQENSEDQEVGLDDEIFVQYLEKNLAKVVADTAQ
+                     KVAELERLQELKKQLLDHKYSCLAAASKEPFPVGMNLLPRLKQVNSKTEELVAQLTGL
+                     IEAKANVDKAYDLHCKEAKSVTENQLKSRYDQYTTMSNEELEKILDEMKNSLKEILGK
+                     AAAKKAELVTKKKEYHAKHLTMMQEIETLSQIEQDAVERLEQLRLEEALSCLEPSD"
+     polyA_site      1207
+                     /gene="cona"
+                     /experiment="COORDINATES: polyA evidence [ECO:0006239]"
+ORIGIN      
+        1 tcgcgatata cactaagctt gatcggcgtc ctttgccatt aattacctaa ataattgcaa
+       61 aaagtgcttt ctgtggatat taaatttaat aataatcatg tctaacaaag gcgacaattt
+      121 ggtaattgtc caggagaatt cagaagatca ggaagtcggc ttggacgatg aaatatttgt
+      181 acaatactta gagaagaatc tggccaaagt ggtcgccgat actgcacaga aggtagcgga
+      241 gctggagagg ctccaggagc tgaagaagca gctactggac cataagtaca gctgccttgc
+      301 ggctgccagc aaggagccct ttcccgtggg catgaatctg ttgcctcgtc tcaaacaggt
+      361 taactcaaag accgaggaat tagtggcaca actcacagga ttgatcgaag caaaggcaaa
+      421 cgtggacaag gcctatgacc tacactgcaa ggaggccaag agtgtcacag aaaatcaact
+      481 aaagagtcga tacgatcagt acaccacgat gtccaacgaa gaactagaaa aaatactcga
+      541 tgaaatgaag aattctttga aggagatact gggcaaggcg gctgccaaaa aggcagagct
+      601 ggtcaccaag aaaaaggagt atcatgccaa acacttgacc atgatgcagg agatcgaaac
+      661 gttgagtcag atcgagcagg atgccgttga acgcctcgaa caattgaggc tggaggaagc
+      721 tctaagctgc ttggagcctt ccgattagaa gcttattcga ctcttttgag gcatttcccc
+      781 gcataaataa ccaaatttta gcactgtaag tattgtatcc tggcataaga accatggaaa
+      841 gcgaaaagtt acacccagtt tttatgttta aattgaaata ttttacgaaa tgttgaaatg
+      901 aactaaagaa aggagttacc attaccaaat ctaatattta gttcttaaat tcatcacatt
+      961 tgaagaattt tgaaatcagt tacttatgct aaaaccacaa attttaattt attgaaaaga
+     1021 atgttcactt tgcggttatt gttaaacaac ctaaatcaat gtaatctttc tgaacacaaa
+     1081 acgaagttaa tttaaagaac attataatct cttaattctt tgagcgaaag gtcaacttat
+     1141 tttacctata atccacacaa atcaatatta tgttgaagta ttaaataaaa cttaaatttt
+     1201 gaaaaaa
+//
+
